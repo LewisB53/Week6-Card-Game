@@ -10,5 +10,12 @@ public class Card {
     this.cardSuit = cardSuit;
   }
 
+  // public CardNumber cardNumber getCardNumber(){
+  //   return this.cardNumber;
+  // }
+
+  public CardSuit getCardSuit(){
+    return this.cardSuit;
+  }
 
 }
