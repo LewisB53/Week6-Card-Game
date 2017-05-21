@@ -20,5 +20,9 @@ public class Deck {
     return this.deck.size();
   }
 
+  public void dealCard(Holdable card){
+
+    this.deck.remove(card);
+  }
 
 }
