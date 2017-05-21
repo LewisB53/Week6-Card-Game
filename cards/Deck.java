@@ -7,8 +7,18 @@ public class Deck {
   
   private ArrayList<Holdable> deck;
 
-  public Deck(String playerName){
+  public Deck(){
     this.deck = new ArrayList<Holdable>();
   }
+
+  public void addCard(Holdable card){
+    this.deck.add(card);
+  }
+
+
+  public int cardCount(){
+    return this.deck.size();
+  }
+
 
 }
