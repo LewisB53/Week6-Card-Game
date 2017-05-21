@@ -20,8 +20,10 @@ public class Deck {
     return this.deck.size();
   }
 
-  public void dealCard(Holdable card){
+  public Holdable dealCard(Holdable card){
     this.deck.remove(card);
+    return card;
   }
+
 
 }
