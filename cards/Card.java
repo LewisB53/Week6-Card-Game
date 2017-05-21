@@ -12,14 +12,16 @@ public class Card {
 
   public CardNumber getCardNumber(){
     return this.cardNumber;
-}
+  }
 
   public int getCardValue(){
     return this.cardNumber.getValue();
-}
+  }
 
   public CardSuit getCardSuit(){
     return this.cardSuit;
   }
+
+
 
 }

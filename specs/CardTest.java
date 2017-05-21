@@ -25,6 +25,7 @@ public class CardTest {
   public void canGetCardValue(){
     assertEquals(CardNumber.FIVE.getValue(), card.getCardValue());
   }
- 
+
+
 
 }
