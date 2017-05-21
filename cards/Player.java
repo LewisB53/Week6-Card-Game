@@ -22,4 +22,11 @@ public class Player implements Playing{
     return this.hand.size();
   }
 
+ public int cardsValue(){
+   int total = 0;
+   for (Holdable card : this.hand)
+     total += card.getCardValue();
+     return total;
+ }
+
 }
