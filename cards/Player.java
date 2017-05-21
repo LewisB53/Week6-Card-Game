@@ -3,7 +3,7 @@ import behaviours.*;
 import java.util.*;
 
 
-public class Player {
+public class Player implements Playing{
   
   private String playerName;
   private ArrayList<Holdable> hand;
