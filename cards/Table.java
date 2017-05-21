@@ -21,4 +21,14 @@ public class Table {
     return this.players.size();
   }
 
+  public Playing returnWinner(Playing player1, Playing player2){
+    Playing winner;
+    if (1 > 0){
+    winner = player2;}
+    else {winner = player1;}
+    return winner;
+  }
+
+
+
 }

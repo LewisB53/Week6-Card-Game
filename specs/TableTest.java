@@ -26,7 +26,12 @@ public class TableTest {
     assertEquals(2, table.playerCount());
   }
 
-
+  @Test
+  public void CanCheckForWinner(){
+    player1.addCard(card1);
+    player2.addCard(card2);
+    assertEquals(player2, table.returnWinner(player1, player2));
+  }
 
 
 
