@@ -13,4 +13,13 @@ public class Player {
     this.hand = new ArrayList<Holdable>();
   }
 
+  public void addCard(Holdable card){
+    this.hand.add(card);
+  }
+
+
+  public int cardCount(){
+    return this.hand.size();
+  }
+
 }

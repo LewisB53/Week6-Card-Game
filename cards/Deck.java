@@ -21,7 +21,7 @@ public class Deck {
   }
 
   public void dealCard(Holdable card){
-
+ 
     this.deck.remove(card);
   }
 
