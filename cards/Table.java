@@ -23,7 +23,7 @@ public class Table {
 
   public Playing returnWinner(Playing player1, Playing player2){
     Playing winner;
-    if (1 > 0){
+    if (player2.cardsValue() > player1.cardsValue() ){
     winner = player2;}
     else {winner = player1;}
     return winner;
