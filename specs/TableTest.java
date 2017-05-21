@@ -23,9 +23,10 @@ public class TableTest {
   public void canAddPlayers(){
     table.addPlayer(player1);
     table.addPlayer(player2);
-
     assertEquals(2, table.playerCount());
   }
+
+
 
 
 
