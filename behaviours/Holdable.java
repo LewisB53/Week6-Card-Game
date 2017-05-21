@@ -1,6 +1,5 @@
-package cards;
-import behaviours.*;
+package behaviours;
 
 public interface Holdable {
-  public int getValue();
+  public int getCardValue();
 }

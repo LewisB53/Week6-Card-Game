@@ -1,6 +1,7 @@
 package cards;
+import behaviours.*;
 
-public class Card {
+public class Card implements Holdable{
 
   private CardNumber cardNumber;
   private CardSuit cardSuit;
